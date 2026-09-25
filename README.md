@@ -6,6 +6,8 @@ A self-contained interactive portfolio companion for exploring all 104 matches o
 
 [Read the four-page xG case study (PDF)](./Touchline_World_Cup_2026_Case_Study.pdf). It explains the model, the held-out evaluation, data checks, and limitations. The PDF reports aggregate results only.
 
+[Explore the public xG lab](./xg/): an interactive view in the original Touchline visual style. It evaluates hypothetical shot positions using the fitted model and plots aggregate validation results. It contains no real shot positions, player records, match-level xG or event-derived charts.
+
 **Data:** [OpenFootball World Cup 2026](https://github.com/openfootball/worldcup.json/blob/516d3825c3bd23fdc298c4014e84bde78f2d4965/2026/worldcup.json), published under CC0-1.0. The dataset is pinned to commit `516d3825c3bd23fdc298c4014e84bde78f2d4965`. The interface is an independent portfolio prototype.
 
 The interactive HTML contains only CC0 match results and goal summaries. The separate xG case study describes a locally evaluated model but its event source has no confirmed reuse licence, so no event rows, shot locations or event-derived charts are published here.
